@@ -1,0 +1,29 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "\"e-commerce shop site made in react\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionuser13/react-shop.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "js",
+    "jsx"
+  ],
+  "author": "John Chacpi <johnchacpi479@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionuser13/react-shop/issues"
+  },
+  "homepage": "https://github.com/ionuser13/react-shop#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
