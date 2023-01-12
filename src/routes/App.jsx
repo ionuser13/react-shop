@@ -14,7 +14,7 @@ const App = () => {
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/new-password" element={<NewPassword />} />
                 <Route exact path="/email-sent" element={<EmailSent />} />
-                <Route component={NotFound}/>
+                <Route path="*" element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
     )
