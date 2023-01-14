@@ -4,32 +4,32 @@ import "../styles/login.scss";
 
 const MyAccountMobile = () => {
     return (
-      <div class="login">
-        <div class="form-container">
-          <h1 class="title">My account</h1>
+      <div className="login">
+        <div className="form-container">
+          <h1 className="title">My account</h1>
 
-          <form action="/" class="form">
+          <form action="/" className="form">
             <div>
-              <label for="name" class="label">
+              <label for="name" className="label">
                 Name
               </label>
-              <p class="value">Camila Yokoo</p>
+              <p className="value">Camila Yokoo</p>
 
-              <label for="email" class="label">
+              <label for="email" className="label">
                 Email
               </label>
-              <p class="value">camilayokoo@gmail.com</p>
+              <p className="value">camilayokoo@gmail.com</p>
 
-              <label for="password" class="label">
+              <label for="password" className="label">
                 Password
               </label>
-              <p class="value">*********</p>
+              <p className="value">*********</p>
             </div>
 
             <input
               type="submit"
               value="Edit"
-              class="secondary-button login-button"
+              className="secondary-button login-button"
             />
           </form>
         </div>
