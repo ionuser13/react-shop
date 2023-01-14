@@ -26,5 +26,5 @@ const ProductSidePanel = () => {
       </aside>
     );
 }
-
+ {/*Product Info*/}
 export default ProductSidePanel
