@@ -1,5 +1,6 @@
 import React from 'react';
-import "../styles/emailSent.scss"
+import "../styles/emailSent.scss";
+import "../styles/login.scss"
 
 const EmailSent = () => {
     return (
