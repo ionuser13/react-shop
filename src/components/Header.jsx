@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/header.scss"
 const Header = () => {
     return (
-        <nav>
+      <nav>
         <img src="./icons/icon_menu.svg" alt="menu" className="menu" />
         <div class="navbar-left">
           <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
@@ -37,6 +37,6 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-    )
+    );
 }
 export default Header
