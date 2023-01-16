@@ -3,7 +3,7 @@ import "../styles/desktopMobile.scss";
 
 const DesktopMobile = () => {
     return (
-      <div class="mobile-menu">
+      <div className="mobile-menu">
         <ul>
           <li>
             <a href="/">CATEGORIES</a>
@@ -39,12 +39,12 @@ const DesktopMobile = () => {
 
         <ul>
           <li>
-            <a href="/" class="email">
+            <a href="/" className="email">
               platzi@example.com
             </a>
           </li>
           <li>
-            <a href="/" class="sign-out">
+            <a href="/" className="sign-out">
               Sign out
             </a>
           </li>
