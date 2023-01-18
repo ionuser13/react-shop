@@ -14,25 +14,28 @@ import Register from "../pages/Register";
 import "../styles/global.css";
 
 const App = () => {
-    return(
-        <BrowserRouter>
-            <Layout>
-                <Routes>
-                    <Route exact path="/" element={<Home />} />
-                    <Route  exact path="/login" element={<Login />} />
-                    <Route exact path="/password-recovery" element={<PasswordRecovery/>} />
-                    <Route exact path="/email-sent" element={<EmailSent />} />
-                    <Route exact path="/new-password" element={<NewPassword />} />
-                    <Route
-                    exact path="/account" element={<MyAccountMobile/>} />
-                    <Route exact path="/register" element={<Register />} />
-                    <Route exact path="/checkout" element={<Checkout />} />
-                    <Route exact path="/orders" element={<Orders />} />
-                    <Route path="*" element={<NotFound/>}/>
-                </Routes>
-            </Layout>
-        </BrowserRouter>
-    )
+    return (
+      <BrowserRouter>
+        <Layout>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/login" element={<Login />} />
+            <Route
+              exact
+              path="/password-recovery"
+              element={<PasswordRecovery />}
+            />
+            <Route exact path="/email-sent" element={<EmailSent />} />
+            <Route exact path="/new-password" element={<NewPassword />} />
+            <Route exact path="/account" element={<MyAccountMobile />} />
+            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/checkout" element={<Checkout />} />
+            <Route exact path="/orders" element={<Orders />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
+    );
 }
 
 export default App
