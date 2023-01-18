@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/productInfo.scss"
 
-const ProductSidePanel = () => {
+const ProductInfo = () => {
     return (
       <aside className="product-detail">
         <div className="product-detail-close">
@@ -27,4 +27,4 @@ const ProductSidePanel = () => {
     );
 }
  {/*Product Info*/}
-export default ProductSidePanel
+export default ProductInfo
