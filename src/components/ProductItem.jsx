@@ -1,9 +1,9 @@
 import React from 'react';
-import "../styles/cardsContainer.scss"
+import "../styles/ProductItem.scss"
 
-const CardsContainer = () => {
+const ProductItem = () => {
     return (
-      <div className="product-card">
+      <div className="ProductItem">
         <img
           src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt=""
@@ -23,4 +23,4 @@ const CardsContainer = () => {
 
 {/*Product Item*/}
 
-export default CardsContainer
+export default ProductItem

@@ -1,14 +1,8 @@
 @import "vars";
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 240px);
-    gap: 26px;
-    place-content: center;
-  }
-  .product-card {
+  .ProductItem {
     width: 240px;
   }
-  .product-card img {
+  .ProductItem img {
     width: 240px;
     height: 240px;
     border-radius: 20px;
@@ -43,10 +37,10 @@
     .cards-container {
       grid-template-columns: repeat(auto-fill, 140px);
     }
-    .product-card {
+    .ProductItem {
       width: 140px;
     }
-    .product-card img {
+    .ProductItem img {
       width: 140px;
       height: 140px;
     }

@@ -1,9 +1,9 @@
 import React from 'react';
-import "../styles/myOrderSidePanel.scss"
+import "../styles/OrderItem.scss"
 
 const MyOrderSidePanel = () => {
     return (
-      <div className="shopping-cart">
+      <div className="OrderItem">
         <figure>
           <img
             src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
