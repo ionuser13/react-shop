@@ -4,8 +4,8 @@ import "../styles/login.scss";
 
 const MyAccountMobile = () => {
     return (
-      <div className="login">
-        <div className="form-container">
+      <div className="MyAccount">
+        <div className="MyAccount-container">
           <h1 className="title">My account</h1>
 
           <form action="/" className="form">
