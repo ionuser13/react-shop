@@ -1,12 +1,12 @@
 import React from 'react';
-import CardsContainer from '../components/CardsContainer';
-import "../styles/cardsContainer.scss";
+import ProductItem from '../components/ProductItem';
+import "../styles/productList.scss";
 
 const ProductList = () => {
     return (
         <section className="main-container">
-            <div className="cards-container">
-                <CardsContainer />
+            <div className="ProductList">
+                <ProductItem />
             </div>
         </section>
     );

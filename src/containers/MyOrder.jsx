@@ -1,10 +1,10 @@
 import React from 'react';
 import OrderItem from "../components/OrderItem"
-import "../styles/myOrderSidePanel.scss";
+import "../styles/MyOrder.scss";
 
 const MyOrder = () => {
     return (
-        <div className='my-order'>
+        <div className='MyOrder'>
             <div className='title-container'>
                 <img src="./icons/flechita.svg" alt="arrow" />
 				<p className="title">My order</p>
