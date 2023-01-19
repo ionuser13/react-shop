@@ -1,12 +1,12 @@
 import React from 'react';
-import OrderItem from "../components/OrderItem"; import "../styles/myOrdersPanel.scss";
+import OrderItem from "../components/OrderItem"; import "../styles/Orders.scss";
 
 const Orders = () => {
     return (
-        <div className="my-order">
-            <div className="my-order-container">
+        <div className="Orders">
+            <div className="Orders-container">
                 <h1 className="title">My Orders</h1>
-                <div className="my-order-content">
+                <div className="Orders-content">
                     <OrderItem />
                 </div>
             </div>
