@@ -10,7 +10,7 @@ import Checkout from "../pages/Checkout";
 import MyAccountMobile from "../pages/MyAccountMobile";
 import Orders from "../pages/Orders";
 import PasswordRecovery from "../pages/PasswordRecovery";
-import Register from "../pages/Register";
+import CreateAccount from "../pages/CreateAccount";
 import "../styles/global.css";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
             <Route exact path="/email-sent" element={<EmailSent />} />
             <Route exact path="/new-password" element={<NewPassword />} />
             <Route exact path="/account" element={<MyAccountMobile />} />
-            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/register" element={<CreateAccount />} />
             <Route exact path="/checkout" element={<Checkout />} />
             <Route exact path="/orders" element={<Orders />} />
             <Route path="*" element={<NotFound />} />
