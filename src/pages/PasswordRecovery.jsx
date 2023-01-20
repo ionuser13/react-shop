@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/login.scss";
+import "../styles/passwordRecovery.scss";
 
 const PasswordRecovery = () => {
   return (
-    <div className="login">
-      <div className="form-container">
+    <div className="PasswordRecovery">
+      <div className="PasswordRecover-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
         <h1 className="title">Password recovery</h1>
         <p className="subtitle">
