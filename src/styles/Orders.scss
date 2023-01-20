@@ -11,7 +11,7 @@
 }
 .Orders-container {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
     width: 300px;
 }
 .Orders-content {
