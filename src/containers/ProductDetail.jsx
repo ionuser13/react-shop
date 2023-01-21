@@ -1,7 +1,7 @@
 import React from 'react';
-import ProductInfo from "../components/ProductInfo";
+import ProductInfo from "@components/ProductInfo";
 import close from "@icons/icon_close.png";
-import "../styles/ProductDetail.scss";
+import "@styles/ProductDetail.scss";
 
 const ProductDetail = () => {
     return (

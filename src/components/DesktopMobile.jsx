@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/desktopMobile.scss";
+import "@styles/desktopMobile.scss";
 
 const DesktopMobile = () => {
     return (

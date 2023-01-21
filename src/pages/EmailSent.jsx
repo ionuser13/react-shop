@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "@logos/logo_yard_sale.svg";
 import email from "@icons/email.svg";
-import "../styles/emailSent.scss";
+import "@styles/emailSent.scss";
 
 const EmailSent = () => {
     return (

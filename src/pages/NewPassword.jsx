@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "@logos/logo_yard_sale.svg";
-import "../styles/newPassword.scss";
-import "../styles/login.scss";
+import "@styles/newPassword.scss";
+import "@styles/login.scss";
 
 const NewPassword = () => {
     return (
