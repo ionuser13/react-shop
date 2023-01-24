@@ -42,7 +42,7 @@ const Register = () => {
 
             <input
               type="submit"
-              value="Create"
+              value="Sign Up"
               className="primary-button login-button"
             />
           </form>
