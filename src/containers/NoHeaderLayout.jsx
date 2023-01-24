@@ -7,3 +7,5 @@ const NoHeaderLayout = ({children}) => {
         </div>  
     )
 }
+
+export default NoHeaderLayout
