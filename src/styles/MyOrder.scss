@@ -1,12 +1,17 @@
 @import "vars";
 .MyOrder {
     width: 360px;
+    height: 100vh;
     padding: 24px;
     position: absolute;
     right: 0;
+    background-color: var(--white);
+    position: absolute;
+    top: 61px;
 }
 .title-container {
     display: flex;
+    align-items: center;
 }
 .title-container img {
     transform: rotate(180deg);
@@ -24,7 +29,7 @@
     background-color: var(--text-input-field);
     margin-bottom: 24px;
     border-radius: 8px;
-    padding: 0 24px;
+    padding: 24px;
 }
 .order p:nth-child(1) {
 	display: flex;
@@ -48,6 +53,9 @@
     font-size: var(--mid);
     font-weight: bold;
     height: 50px;
+}
+.no-scroll {
+    overflow: hidden;
 }
 @media (max-width: 640px) {
     .MyOrder {
