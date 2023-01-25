@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "@containers/Layout";
+import NoHeaderLayout from "@containers/NoHeaderLayout";
 import NewPassword from "@pages/NewPassword";
 import EmailSent from "@pages/EmailSent";
 import Home from "@pages/Home";
