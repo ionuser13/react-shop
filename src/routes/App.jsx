@@ -13,11 +13,13 @@ import Orders from "@pages/Orders";
 import PasswordRecovery from "@pages/PasswordRecovery";
 import CreateAccount from "@pages/CreateAccount";
 import AppContext from "@context/AppContext";
+import useInitialState from "@hooks/useInitialState";
 import "@styles/global.css";
 
 const App = () => {
+  const initialState = useInitialState();
     return (
-      <AppContext.Provider>
+      <AppContext.Provider value={initialState}>
         <BrowserRouter>
           <Layout>
             <Routes>
