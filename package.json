@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-payes -d build"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/ionuser13/react-shop/issues"
   },
-  "homepage": "https://github.com/ionuser13/react-shop#readme",
+  "homepage": "https://github.com/ionuser13/react-shop",
   "dependencies": {
     "@babel/core": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.19.6",
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
     "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
