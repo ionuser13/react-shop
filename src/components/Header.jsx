@@ -15,7 +15,6 @@ const Header = () => {
 
     const handleToggleOrder = () => {
       setToggleOrder(!toggleOrder);
-      document.querySelector("body").classList.toggle("no-scroll");
     }
     const handleToggle = () => {
       setToggle(!toggle);
@@ -64,7 +63,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        {toggleOrder && <MyOrder />}
+        {toggleOrder && <MyOrder setToggleOrder={setToggleOrder} />}
         {toggle && <Menu />}
       </nav>
     );

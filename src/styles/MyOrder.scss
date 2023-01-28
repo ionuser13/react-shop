@@ -4,11 +4,13 @@
     height: 100vh;
     padding: 24px;
     position: fixed;
-    right: 0;
+    right: -360px;
     background-color: var(--white);
     top: 61px;
     z-index: 1;
     border-left: 1px solid var(--very-light-pink);
+    animation: swipeLeft .3s ease forwards;
+    transition: 0.3s ease;
 }
 .title-container {
     display: flex;
@@ -63,11 +65,11 @@
     font-weight: bold;
     height: 50px;
 }
-// .no-scroll {
-//     overflow: hidden;
-// }
 @media (max-width: 640px) {
     .MyOrder {
         width: 100%;
     }
+}
+@keyframes swipeLeft {
+    100% {transform: translateX(-360px);}
 }

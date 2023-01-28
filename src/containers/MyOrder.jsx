@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import OrderItem from "@components/OrderItem";
 import AppContext from "@context/AppContext";
 import flecha from "@icons/flechita.svg";
 import "@styles/MyOrder.scss";
 
-const MyOrder = () => {
+const MyOrder = ({setToggleOrder}) => {
   const { state } = useContext(AppContext);
   const sumPrices = () => {
     const reducer = (accumulator, currentValue) =>
@@ -12,10 +12,11 @@ const MyOrder = () => {
     const sum = state.cart.reduce(reducer, 0);
     return sum;
   };
+  const handleClose = () => setToggleOrder(false)
   return (
     <div className="MyOrder">
       <div className="title-container">
-        <img src={flecha} alt="arrow" />
+        <img src={flecha} alt="arrow" onClick={handleClose}/>
         <p className="title">My order</p>
       </div>
       <div className="my-order-content">    
