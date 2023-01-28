@@ -5,6 +5,9 @@
     gap: 26px;
     place-content: center;
     margin: 20px 0;
+    position: relative;
+    top: 60px;
+    z-index: -1;
 }
 @media (max-width: 640px) {
     .ProductList {

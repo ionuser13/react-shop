@@ -64,8 +64,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        {toggle && <Menu />}
         {toggleOrder && <MyOrder />}
+        {toggle && <Menu />}
       </nav>
     );
 }

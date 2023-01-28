@@ -3,12 +3,12 @@
     width: 360px;
     height: 100vh;
     padding: 24px;
-    position: absolute;
+    position: fixed;
     right: 0;
     background-color: var(--white);
-    position: absolute;
     top: 61px;
     z-index: 1;
+    border-left: 1px solid var(--very-light-pink);
 }
 .title-container {
     display: flex;
@@ -63,9 +63,9 @@
     font-weight: bold;
     height: 50px;
 }
-.no-scroll {
-    overflow: hidden;
-}
+// .no-scroll {
+//     overflow: hidden;
+// }
 @media (max-width: 640px) {
     .MyOrder {
         width: 100%;
