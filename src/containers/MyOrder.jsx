@@ -18,9 +18,9 @@ const MyOrder = () => {
         <img src={flecha} alt="arrow" />
         <p className="title">My order</p>
       </div>
-      <div className="my-order-content">
-        {state.cart.map((item) => {
-          return <OrderItem product={item} key={`orderItem-${item.id}`} />;
+      <div className="my-order-content">    
+        {state.cart.map((item, index) => {
+          return <OrderItem indexValue={index} product={item} key={`orderItem-${item.id}`} />;
         })}
       </div>
       <div className="order">

@@ -4,10 +4,10 @@ import "@styles/OrderItem.scss";
 import close from "@icons/icon_close.png";
 import { useContext } from "react";
 
-const MyOrderSidePanel = ({product}) => {
+const MyOrderSidePanel = ({product, indexValue}) => {
   const {removeFromCart} = useContext(AppContext);
-  const handleRemove = product => {
-    removeFromCart(product);
+  const handleRemove = index => {
+    removeFromCart(index);
   }
     return (
       <div className="OrderItem">
@@ -16,7 +16,7 @@ const MyOrderSidePanel = ({product}) => {
         </figure>
         <p>{product.title}</p>
         <p>{product.price}</p>
-        <img src={close} alt="close" onClick={() => handleRemove(product)} />
+        <img src={close} alt="close" onClick={() => handleRemove(indexValue)} />
       </div>
     );
 }
