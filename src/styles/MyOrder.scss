@@ -8,10 +8,12 @@
     background-color: var(--white);
     position: absolute;
     top: 61px;
+    z-index: 1;
 }
 .title-container {
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 .title-container img {
     transform: rotate(180deg);
@@ -20,6 +22,13 @@
 .title {
     font-size: var(--lg);
     font-weight: bold;
+}
+.my-order-content {
+    max-height: 370px;
+    overflow-y: scroll;
+    margin-bottom: 24px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 8px;
 }
 .order {
     display: grid;
