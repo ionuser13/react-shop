@@ -15,9 +15,11 @@ const Header = () => {
 
     const handleToggleOrder = () => {
       setToggleOrder(!toggleOrder);
+      setToggle(false)
     }
     const handleToggle = () => {
       setToggle(!toggle);
+      setToggleOrder(false)
     }
 
     const [mobtog, setMobtog] = useState(false);
